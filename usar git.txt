@@ -1,0 +1,2 @@
+click derecho luego mostrar mas, luego git bash here
+git status
