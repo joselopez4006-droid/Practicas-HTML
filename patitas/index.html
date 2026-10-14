@@ -10,22 +10,22 @@
         <section style="display: flex; justify-content: space-between; align-items: center;">
             <div style="display: inline-flex; gap: 20px;">
                 <img src="PATITAS1.png" alt="logo">
-                <h1>PATITAS JL</h1>
+                <h1 id="patitas">PATITAS JL</h1>
             </div>
 
-            <nav>
-                <a href="#" style="text-decoration: none; color: #14213d; margin: right 20px;" >Inicio</a>
-                <a href="#" style="text-decoration: none; color: #14213d; margin: right 20px;" >Quienes Somos</a>
-                <a href="#" style="text-decoration: none; color: #14213d; margin: right 20px;" >Servicios</a>
-                <a href="#" style="text-decoration: none; color: #14213d; margin: right 20px;" >Contacto</a>
+            <nav style=" display: flex; justify-content: space-evently; gap: 20px; ">   <!--width: 27%;-->
+                <a href="#patitas" style="text-decoration: none; color: #14213d; " >Inicio</a>
+                <a href="#quienes" style="text-decoration: none; color: #14213d; " >Quienes Somos</a>
+                <a href="#servicios" style="text-decoration: none; color: #14213d; " >Servicios</a>
+                <a href="#contacto" style="text-decoration: none; color: #14213d; " >Contacto</a>
             </nav>            
         </section>
 
     </header>
      <main style="background-color: #fffae3; padding: 8%;">
         <section style="display: flex; padding-left: 0; gap: 20px; align-items: center;">
-            <div style="width: 100%; padding: 0; gap: 20PX;">
-                <h2>LO HACEMOS CON CARIÑO</h2>                
+            <div style="width: 100%; font-size: x-large; padding: 0; gap: 20PX;">
+                <h2 id="quienes">LO HACEMOS CON CARIÑO</h2>                
                 <p>Patitas, nacimos de un profundo amor por los animales y del deseo de ofrecerles un espacio donde se sientan tan seguros y consentidos como en su propio hogar. Somos una empresa especializada en el cuidado, estética e higiene integral de mascotas</p>
             </div>
 
@@ -34,12 +34,13 @@
             </div>           
         </section>
 
-        <hr>
+        <hr style="margin: 5% 0;">
 
         <section style=" width: 100%; padding-left: 0; align-items: center; justify-content: space-between;">
-            <h2 style="text-align: center;">NUESTROS SERVICIOS</h2>
+            <h2 id="servicios" style="text-align: center;">NUESTROS SERVICIOS</h2>
             <div style="display: flex; align-items: center; gap: 20px;">
-            <div style="width: 50%;">                
+            <div style="width: 50%; font-size: x-large;">  
+                <img src="lo hacemos.jpg" alt="text-img">
                 <ul>
                     <li>Baño y Peluqueria Profesional</li>
                     <li>cuidado integral</li>
@@ -51,9 +52,53 @@
             </div></div>
         </section>
 
+        <hr style="margin: 5% 0;">
+
+        <section style="align-items: center; width: 90%; ">
+            <div>
+               <h2 style="text-align: center; padding: 2%;">Galeria</h2> 
+            </div>
+            <div style="display: flex; width: 100%; height: 100%; padding: 5%;">
+
+                <div style="display: flex; width: 700px; height: 700px; justify-content: center; align-items: center; overflow: hidden;"> 
+                <img src="images1.jpg" alt="">
+                </div>
+
+                <div style="display: flex; width: 700px; height: 700px; justify-content: center; align-items: center; overflow: hidden;">
+                    <img src="images2.jpg" alt="">
+                </div>
+                                
+            </div>
+
+            <div style="display: flex; width: 100%; height: 100%; padding: 5%;">
+                <div style="display: flex; width: 50%; height: 50%; justify-content: center; align-items: center; overflow: hidden;">
+                    <img src="animalitos.png" alt="">
+                </div>
+
+                <div style="display: flex; width: 50%; height: 50%; justify-content: center; align-items: center; overflow: hidden;">
+                    <img src="images4.jpg" alt="">
+                </div>
+            </div>                     
+            
+        </section>
+
+        <hr style="margin: 5% 0;">
+
+        <section>
+            <div style="text-align: center; padding: 2%;">
+               <h2 id="contacto">Contacto</h2> 
+               <p>64523674</p>
+            </div>
+        </section>
+
      </main>
 
-     <footer>
+     
+     <footer style="background-color: #d5f2f3; padding: 18px 8%;">
+
+        <div style="text-align: center; padding: 5%;">
+            <p>2026 todos los derechos reservados</p>
+        </div>
 
      </footer>
 </body>
